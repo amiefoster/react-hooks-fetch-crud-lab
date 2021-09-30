@@ -30,10 +30,11 @@ function App() {
   }
 
   const handleAnswer = (answer) => {
-    
-    const correctAnswer = questionArray.filter(question => question.correctIndex !== answer.correctIndex)
-
-    console.log(correctAnswer)
+    //filter current question and add updated question insetad
+    let updatedQuestion = questionArray.filter(question => question.id === answer.id)
+    let spreadQuestions = [...questionArray]
+    spreadQuestions.splice(updatedQuestion, 1, answer)
+    setQuestionArray(spreadQuestions)
   }
   
   const handleAddQuestion = (question) => {
@@ -50,7 +51,7 @@ function App() {
         "correctIndex": parseInt(question.correctIndex)
       })
     })
-    .then(response => console.log(response.json()))
+    .then(response => (response.json()))
     .then( newQuestion => 
         setQuestionArray([...questionArray, newQuestion]))
         setPage("List")

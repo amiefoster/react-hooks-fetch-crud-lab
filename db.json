@@ -1,17 +1,6 @@
 {
   "questions": [
     {
-      "id": 2,
-      "prompt": "A React component is a function that returns ______.",
-      "answers": [
-        "HTML",
-        "JSX",
-        "props",
-        "state"
-      ],
-      "correctIndex": 1
-    },
-    {
       "id": 3,
       "prompt": "Which event handler will run when a user is finished filling out a form?",
       "answers": [
@@ -107,7 +96,7 @@
         "Europe",
         "JSX"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "id": 11
     },
     {
@@ -120,50 +109,6 @@
       ],
       "correctIndex": 0,
       "id": 12
-    },
-    {
-      "prompt": "What are CRUD Functions",
-      "answers": [
-        "Event Listener",
-        "POST, PATCH, DELETE, GET",
-        "Props and State",
-        "JSX"
-      ],
-      "correctIndex": 0,
-      "id": 13
-    },
-    {
-      "prompt": "What is a State?",
-      "answers": [
-        "California",
-        "POST, PATCH, DELETE, GET",
-        "Props and State",
-        "JSX"
-      ],
-      "correctIndex": 0,
-      "id": 16
-    },
-    {
-      "prompt": "What are CRUD Functions",
-      "answers": [
-        "Event Listener",
-        "POST, PATCH, DELETE, GET",
-        "Europe",
-        "JSX"
-      ],
-      "correctIndex": 0,
-      "id": 17
-    },
-    {
-      "prompt": "",
-      "answers": [
-        "",
-        "",
-        "",
-        ""
-      ],
-      "correctIndex": 0,
-      "id": 19
     }
   ]
 }
